@@ -1,0 +1,31 @@
+h3 , h1{
+   color: red;
+   font-size: 25px; 
+
+}
+
+body{
+background-color: blue;
+}
+
+#MW3{
+ width: 20%;
+}
+h3,h4{
+    font-size: 2rem;
+}
+#formation {
+    width: 50vw;
+    background-color: blueviolet;
+    margin: 20px;
+    border: black 5px solid;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 30px 30px 10px 0px;
+    transition: transform 5;
+}
+#formation:hover{
+background-color: brown;
+transform: translate3d(5px, 5px, 0)
+
+}       
