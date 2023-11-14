@@ -1,0 +1,39 @@
+main {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 5vh;
+}
+article {
+
+width: 80%;
+background-color: whitesmoke;
+box-shadow: black 5px 5px 10px 0;
+padding: 10px;
+margin-bottom: 3.5vh;
+
+}
+article>h2 {
+    color:black ;
+    font-size: 2em;
+}
+
+article>h2 {
+    color:black ;
+    font-size: 1,5em;   
+}
+article>h3{
+    color: beige;
+    font-size: 1,5em;
+    margin-bottom: 1,5vh
+}
+article>p,article>li {
+font-size: 1,2em;
+}
+article>ul {
+    margin-left: 20px;
+}
+.espace {
+    height: 90vh;
+}

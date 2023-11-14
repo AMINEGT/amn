@@ -11,7 +11,9 @@ box-sizing: border-box;
 
 header {
 /*Positionnement des blocks h1 et h2 dans le header*/
+position: fixed;
 display: flex;
+z-index: 10;
 flex-direction: column;
 justify-content: center;
 align-items: center;    
@@ -40,8 +42,11 @@ font-size: 5vh;
 
 nav{
 /*taille et apparence de base du nav (menu)*/
+position: fixed;
+top: 20vh;
+z-index: 10;
 height:75vh;
-width: 30vh ;
+width: 30vw ;
 background-color: #000000;
 color: #f5f5f5;
 /*optionnel*/
@@ -68,11 +73,32 @@ text-align: center;
 transition: box-shadow 500ms;
 }
 
+
 .boutton:hover {
 
 /*color: #f5f5f5;*/
+background-color: beige;
 box-shadow: #f5f5f5 5px 5px 10px 0;
 
 }
 
+main {
+/*positionnement de la page*/
+position: relative;
+top: 20vh;
+left:30vw ;
+width: 70vw;
+
+}
+footer {
+
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    left: 20vw;
+    height: 10vh;
+    background-image: url(../assets/fooeter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
