@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style/style.css">
-    <script src="../script/premierScrpt.js"></script>
+    <link rel="stylesheet" href="../style/javascript.css">
+    <script src="../script/games.js"defer></script>
 </head>
 <body>
 <header>
@@ -21,9 +22,16 @@
 </nav>
 
 <main>
-<div id="gameMenu">
+<div id="gameMenu" class="game-container">
 <label for="menu">Choisissez votre jeu    
-</label><select name="menu" id="menu"></selesct>
+</label><select name="menu" id="menu">
+    <option value="0" selected> --choix du jeu--</option>
+    <option value="1">Le juste chiffre</option>
+</select>
+
+</div>
+
+<div id="gameZone" class="game-container">
 
 </div>
 
