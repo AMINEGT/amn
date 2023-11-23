@@ -50,19 +50,20 @@ zone.appendChild(InputLabel)
 zone.appendChild(playerInput)
 zone.appendChild(submitButton)
 /*le fonctionnement du jeu*/
-function compareNumber() 
+function compareNumber() {
     count++
     let userNumber = parseInt(playerInput.value)
-    let message = 'coup n°$ {count'-propositon} : ${userNumber} -'
+    let message =` coup n°$ {count'-propositon} : ${userNumber} -`
     if (isNaN(userNumber) ) {
         message("C'est trop grand")
-         else if (userNumber < randomTraget){
+    } else if (userNumber < randomTraget)
+    {
             message("C'est trop petit ")
         } else{
         message("Bravo t'as trouvé")
         }
-
-
+    }
+}
 /*on configure les évènements*/
 
 menu.addEventListener("change",menuChange)

@@ -47,6 +47,7 @@ top: 20vh;
 z-index: 10;
 height:75vh;
 width: 30vw ;
+left: -30vw; 
 background-color: #000000;
 color: #f5f5f5;
 /*optionnel*/
@@ -58,6 +59,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-evenly;
  align-items: center;
+ transition: transform 1s;
 }
 .boutton {
 /* formatage du texte*/

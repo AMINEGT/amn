@@ -14,7 +14,7 @@ console.log(a+""+b)*/
 /*alet(`bonjour ${nomUtilisateur}, vous avez ${ageUtilisateur}ans!`)*/
 
 /* Premier script complet*/
-whille (userNumber != randomTraget,)
+while (userNumber != randomTraget,)
 count= count++
 let randomTraget = Math.floor(Math.random() * 100) +1
 console.log(randomTraget)
